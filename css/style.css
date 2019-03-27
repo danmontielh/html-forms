@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px auto 200px;
+   
+}
+
+.header  {
+    display: grid;
+    grid-column: 1 / -1;
+    justify-content: end;
+  
+ 
+}
+
+.header .account-sign  {
+    display: grid;
+    grid-template-columns: 220px auto;
+    grid-template-rows: 40px;
+}
+
+.header .account-sign .text-sign p {
+    margin: 1px;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+}
+
+.content  img.img-size {
+    width: 120px;
+}
