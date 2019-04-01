@@ -15,7 +15,9 @@
 .h-margin {
   margin: 0 20px;
 }
-
+.v-margin {
+  margin: 20px 0; 
+}
 .header  {
     /*justify-content: end;*/
     height: 100px;
