@@ -9,37 +9,49 @@
 </head>
 <body>
     <div class="flex-col">
+
         <div class="header">
-            <div class="flex-row justify-end account-sign">
-                <div class="flex-col text-sign align-start">
+            <div class="flex-row justify-end">
+                <div class="text-sign flex-col align-start">
                     <p>Already have an intuit account?</p>
-                    <a href=""><p class="blue">I forgot my User ID or Password</p></a>
+                    <a href=""><p>I forgot my User ID or Password</p></a>
                 </div>
                 <button id="signin-button" type="submit">Sign in</button>
             </div>
-
         </div>
-        <div class="flex-col align-center content">
-            <div class="flex-col logo align-center space-evenly">
-                <img class="img-size" src="https://datainsure.com/wp-content/uploads/2014/11/Intuit-Logo-Greyscale-Web-011-300x140.png" alt="">
-                <div class="flex-row h-margin align-center">
-                  <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg" alt="" height="24">
-                  <p>mint</p>
-                  <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg" alt="" height="24">
-                  <p>quickbooks</p>
-                  <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg" alt="" height="24">
-                  
-                  <!-- third button -->
-                  <p>turbotax</p>
+
+        <div class="content flex-col align-center">
+
+            <div class="logo flex-col align-center">
+                <a href="">
+                  <img width="120" src="https://datainsure.com/wp-content/uploads/2014/11/Intuit-Logo-Greyscale-Web-011-300x140.png" alt="">
+                </a>
+                <div class="logo flex-row align-center space-evenly">
+                  <a href="">
+                    <div class="logo-button flex-row align-center">
+                      <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg" alt="" height="24">
+                      <p class="no-margin">mint</p>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="logo-button flex-row align-center">
+                      <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg" alt="" height="24">
+                      <p class="no-margin">quickbooks</p>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="logo-button flex-row align-center">
+                      <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg" alt="" height="24">
+                      <p class="no-margin">turbotax</p>
+                    </div>
+                  </a>
                 </div>
             </div>
 
             <div class="signup-form flex-col align-center">
               <h2 class="no-margin">One Account.</h2>
               <h2 class="no-margin">Everything Intuit.</h2>
-
               <p>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></p>
-
               <form action="" >
                 <div class="flex-col v-margin inputs">
                   <label for="email-address">Email</label><input type="email" name="email-address" class="v-margin">
@@ -53,18 +65,24 @@
                 Terms of Service and have read and acknowledge our Privacy Statement.</span>
             </div>
 
+            <div class="form-footer">
+              <span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</span>
+            </div>
+
         </div>
-        <div class="flex-col footer align-center v-margin">
+
+        <div class="flex-col footer align-center">
            <div class="flex-row">
                 <a href="#">Legal</a>
                 <a href="#">Privacy</a>
                 <a href="#">Security</a>
-                
+
            </div>
            <p class="no-margin">© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
            <p class="no-margin">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-            
+
         </div>
+
     </div>
 </body>
 </html>
