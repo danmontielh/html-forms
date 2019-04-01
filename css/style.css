@@ -66,12 +66,10 @@ a:hover{
 .logo {
   width: 370px;
   padding: 0 30px;
-
 }
 
 .logo img {
-  margin-left: 7px;
-  margin-right: 7px;
+  margin: 0 7px;
 }
 
 .logo a{
