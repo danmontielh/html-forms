@@ -1,6 +1,5 @@
 body{
-  background-color: #ECEEF1;
-  opacity: 0.5;
+  background-color: rgba(236, 238, 241, 0.5);
   font-family: arial;
 }
 a{
