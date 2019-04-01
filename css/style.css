@@ -1,23 +1,38 @@
-.container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 60px auto 200px;
-   
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.h-margin {
+  margin: 0 20px;
 }
 
 .header  {
-    display: grid;
-    grid-column: 1 / -1;
-    justify-content: end;
-  
- 
+    /*justify-content: end;*/
+    height: 100px;
+
+
 }
 
-.header .account-sign  {
+.text-sign {
+  font-size: 12px;
+  width: 200px;
+}
+
+/*.header .account-sign  {
     display: grid;
     grid-template-columns: 220px auto;
     grid-template-rows: 40px;
-}
+}*/
 
 .header .account-sign .text-sign p {
     margin: 1px;
